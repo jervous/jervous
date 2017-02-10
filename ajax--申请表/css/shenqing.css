@@ -1,0 +1,172 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+#box{
+	width: 1200px;
+}
+#head {
+	width: 300px;
+	height: 30px;
+	margin: auto;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#content1 {
+	width: 700px;
+	height: 20px;
+	margin: auto;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+#content2 {
+	width: 900px;
+	height: 480px;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-bottom: none;
+}
+
+#content2 div {
+	width: 900px;
+	float: left;
+	height: 30px;
+	border-bottom: 1px solid #666;
+}
+
+#content2 ul {
+	width: 900px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-right: none;
+}
+
+#content2 li {
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	border-right: 1px solid #666;
+}
+
+.ct1_1 {
+	margin-top: 3px;
+}
+
+.ct1_2 input {
+	width: 145px;
+	height: 27px;
+	font-size: 17px;
+	border: none;
+}
+
+.ct1_2 li {
+	width: 149px;
+	height: 30px;
+}
+
+.ct1_2 select {
+	border: none;
+	width: 149px;
+	height: 30px;
+}
+
+.ct1_3_1 {
+	width: 149px;
+	height: 30px;
+}
+
+.ct1_3 input {
+	width: 299px;
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	border: none;
+}
+
+#ct1_3_2 {
+	width: 749px;
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	border: none;
+}
+
+.ct1_4 input {
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	border: none;
+}
+
+.ct1_4 span {
+	height: 30px;
+	float: left;
+	font-size: 17px;
+	border: none;
+	font-size: 14px;
+	padding-right: 5px;
+}
+
+#ct1_3_3 {
+	width: 749px;
+	height: 30px;
+	float: left;
+}
+
+.ct1_5_1 {
+	width: 148px;
+	height: 80px;
+}
+
+.ct1_5 textarea {
+	width: 750px;
+	height: 80px;
+	float: left;
+	font-size: 17px;
+	border: none;
+	border-right: none;
+}
+
+#submit {
+	width: 70px;
+	height: 30px;
+	margin: auto;
+	margin-left: -450px;
+	margin-top: 10px;
+}
+
+#content3 {
+	width: 820px;
+	height: 20px;
+	margin: auto;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.inputChange{
+	background: red;
+}
+#box1{
+	width: 100%;
+	height: 1200px;
+	position: relative;
+}
+textarea{
+	resize: none;
+}
+/*#box2{
+	width: 1400px;
+	height: 1000px;
+	background: red;
+	height: 1000px;
+	position: absolute;
+	margin-top: -1000px;
+	display: none;
+	z-index: -1;
+}*/

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <script src="javascripts/jquery-3.0.0.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<div style="height:560px;background:#ffffff;">
+    <div style="margin:10px auto;border:1px solid green;width:400px;">
+        <form method="post" action="./users/login">
+            <table class="table">
+                <tr>
+                    <td colspan="2" align="center">登录</td>
+                </tr>
+                <tbody>
+                <tr>
+                    <td align="right">email:</td>
+                    <td><input type="text" name="email" class="form-control" placeholder="文本输入"/></td>
+                </tr>
+                <tr>
+                    <td align="right">密码:</td>
+                    <td><input type="password" name="pwd" class="form-control" placeholder="密码"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" valign="middle">
+                        <input type="hidden" name="subflag" value="1">
+                        <input type="submit" value="登录" class="btn btn-success"/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <div style="margin:10px auto;border:1px solid green;width:400px;">
+        <form method="post" action="./users/zhuce">
+            <table class="table">
+                <tr>
+                    <td colspan="2" align="center">注册</td>
+                </tr>
+                <tbody>
+                <tr>
+                    <td align="right">email:</td>
+                    <td><input type="text" name="email" class="form-control" placeholder="文本输入"/></td>
+                </tr>
+                <tr>
+                    <td align="right">密码:</td>
+                    <td><input type="password" name="pwd" class="form-control" placeholder="密码"/></td>
+                </tr>
+                <tr>
+                    <td align="right">重复:</td>
+                    <td><input type="password" name="repwd" class="form-control" placeholder="密码"/></td>
+                </tr>
+                <tr>
+                    <td align="right">昵称:</td>
+                    <td><input type="text" name="nicheng" class="form-control" placeholder="昵称"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"  valign="middle">
+                        <input type="hidden" name="subflag" value="1">
+                        <input type="submit" value="注册" class="btn btn-success"/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
