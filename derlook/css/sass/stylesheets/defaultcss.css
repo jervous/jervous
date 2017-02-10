@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* line 1, ../sass/defaultcss.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../sass/defaultcss.scss */
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+/* line 10, ../sass/defaultcss.scss */
+input {
+  outline: none;
+}
+
+/* line 13, ../sass/defaultcss.scss */
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* line 17, ../sass/defaultcss.scss */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 21, ../sass/defaultcss.scss */
+a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 25, ../sass/defaultcss.scss */
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+  zoom: 1;
+}
+
+@media only screen and (min-width: 320px) {
+  /* line 28, ../sass/defaultcss.scss */
+  html {
+    font-size: 10px;
+  }
+}
+@media only screen and (min-width: 360px) {
+  /* line 33, ../sass/defaultcss.scss */
+  html {
+    font-size: 11.25px;
+  }
+}
+@media only screen and (min-width: 400px) {
+  /* line 38, ../sass/defaultcss.scss */
+  html {
+    font-size: 12.5px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 43, ../sass/defaultcss.scss */
+  html {
+    font-size: 20px;
+  }
+}
+/* line 51, ../sass/defaultcss.scss */
+body,
+button,
+input,
+select,
+textarea {
+  font: 16px/1.5 tahoma,arial,"\5b8b\4f53";
+  font-family: "PingFang SC medium", "Microsoft YaHei", tahoma,arial,"瀹嬩綋";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  -x-system-font: none;
+  font-feature-settings: normal;
+  font-language-override: normal;
+  font-kerning: auto;
+  font-synthesis: weight style;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+}
+
+/* line 75, ../sass/defaultcss.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 78, ../sass/defaultcss.scss */
+.clear {
+  clear: both;
+  font-size: 0;
+}
+
+/* line 82, ../sass/defaultcss.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 87, ../sass/defaultcss.scss */
+input {
+  line-height: normal;
+}
+
+/* line 90, ../sass/defaultcss.scss */
+table {
+  border-collapse: collapse;
+}

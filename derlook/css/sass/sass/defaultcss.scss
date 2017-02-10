@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul,
+li {
+    list-style: none;
+}
+input {
+    outline: none;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0;zoom: 1;} 
+
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width:360px) {
+    html {
+        font-size: 11.25px;
+    }
+}
+@media only screen and(min-width:400px) {
+    html {
+        font-size: 12.5px;
+    }
+}
+@media only screen and(min-width:640px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+//body{
+//  font-size: 62.5%;
+//}
+body,
+button,
+input,
+select,
+textarea {
+    font: 16px/1.5 tahoma,arial,"\5b8b\4f53";
+    font-family:"PingFang SC medium", "Microsoft YaHei", tahoma,arial,"宋体";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -x-system-font: none;
+    font-feature-settings: normal;
+    font-language-override: normal;
+    font-kerning: auto;
+    font-synthesis: weight style;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+}
+.clear {
+    clear: both;
+    font-size: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+table {
+    border-collapse: collapse;
+}
